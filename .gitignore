@@ -1,0 +1,69 @@
+# Build directories
+build/
+Build/
+BUILD/
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Object files
+*.o
+*.obj
+*.a
+*.lib
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+backup/
+*.bak
+*.backup
+
+# Log files
+*.log
+*.txt.log
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Large data files (optional - uncomment if needed)
+# *.dat
+# *.bin
+# data/
+
+# Archive files (optional - uncomment if needed)
+# *.zip
+# *.tar.gz
+# *.tar
