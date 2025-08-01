@@ -1,0 +1,4 @@
+/home/luck/xzy/OPRF/okvspsi/vole/build/CMakeFiles/psi_test.dir
+/home/luck/xzy/OPRF/okvspsi/vole/build/CMakeFiles/test_okvs.dir
+/home/luck/xzy/OPRF/okvspsi/vole/build/CMakeFiles/edit_cache.dir
+/home/luck/xzy/OPRF/okvspsi/vole/build/CMakeFiles/rebuild_cache.dir
