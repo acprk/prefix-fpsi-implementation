@@ -1,0 +1,30 @@
+#ifndef APSI_TEST_CONFIG_H
+#define APSI_TEST_CONFIG_H
+
+// Project information
+#define APSI_TEST_VERSION_MAJOR @APSI_Test_VERSION_MAJOR@
+#define APSI_TEST_VERSION_MINOR @APSI_Test_VERSION_MINOR@
+
+// Build configuration
+#cmakedefine BUILD_SHARED_LIBS
+#cmakedefine CMAKE_BUILD_TYPE "@CMAKE_BUILD_TYPE@"
+
+// Library paths
+#define APSI_INCLUDE_DIR "@APSI_INCLUDE_DIR@"
+#define APSI_LIB_DIR "@APSI_LIB_DIR@"
+
+// Feature flags
+#cmakedefine HAVE_SEAL
+#cmakedefine HAVE_KUKU
+#cmakedefine HAVE_JSON
+
+// Default parameters
+#define DEFAULT_TABLE_SIZE 512
+#define DEFAULT_MAX_ITEMS_PER_BIN 92
+#define DEFAULT_BUNDLE_IDX_COUNT 0
+
+// File paths
+#define DATA_DIR "../data"
+#define RESULTS_DIR "../results"
+
+#endif // APSI_TEST_CONFIG_H
